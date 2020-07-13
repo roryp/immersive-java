@@ -11,7 +11,7 @@
 * In the **Command line** field, enter **mvn com.microsoft.azure:azure-webapp-maven-plugin:1.9.1:config** to setup your azure instance.
 * In the **Command line** field, enter **mvn package azure-webapp:deploy** to deploy to Azure
 
-2. Add a properties to application setting on azure app settings
+2. Add properties to application setting on [azure app setting](https://docs.microsoft.com/en-us/azure/app-service/configure-common)
 
     ```text
     TENANT_ID=<YOUR_TENANT_ID>
